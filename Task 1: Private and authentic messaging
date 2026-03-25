@@ -1,0 +1,18 @@
+Task 1A) Signing a message
+  Should be found in this repository
+
+Task 1B) Encrypting the message
+  Done
+
+Task 1C) Verifying a message
+  Pelle Security
+
+Task 1D) Questions
+What can be found out about the email you sent, by one who intercepted it in transit?
+  from, to, subject, email address, date, received, message-id, content-type, size, attachment filenames
+
+Does verifying the the message guarantee the senders identity?
+  Yes, because the signature proves that the message was signed with a specific private key.
+
+Is the process of sending an email this way end-to-end-encrypted (E2EE)?
+  Yes
