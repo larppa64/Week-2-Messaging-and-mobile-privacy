@@ -1,0 +1,46 @@
+Task 2A) Compare messaging platforms (disclaimer: the essay is almost a list at the beginning and the writing starts gradually after first paragraph)
+
+    In AppStore, WhatsApp collects a lot of data about user. In third-party advertising they share coarse location, user ID, product interaction and advertising data. 
+  In developer’s advertising or marketing they have device ID and advertising data. For analytics they collect purschase history, coarse location, phone number, other user content (e.g. pictures), user and device ID, product interaction, advertising data, crash data, performance data and other diagnostic data. 
+  For product personalisation they gather other user content. App functionality accumulates from purchase history, payment info, coarse location, email address, phone number, contacts, customer support, othe user content, user and device ID, product interaction, crash data, performance data and other diagnostic data. 
+  For other purposes they harvest phone number, user and device ID and product interaction.
+
+    Even if this is ”just a grain of salt” I think already this amount of collected data is huge. In contrast, Signal promises that they never ”sell, rent or monetize your personal data or content in any way – ever”. 
+  In AppStore, there’s unfortunately no information about data that Signal collects about user, but it is written that they do not collect phone number for app functionality. 
+  For Telegram there is only app functionality listed, and it contains purchase history, payment info, presice location, name, phone number, contacts, emails or text messages, photos or videos, audio data, gameplay content and user ID. 
+
+    Meta’s Messenger is the worst according the AppStores Privacy section. They collect literally everything along with sensitive info (wonder what that includes). They also might share all the gathered information with third parties. 
+  Messages sent in Messenger are not E2EE by default, likewise in Telegram (Telegram has a Secret Chat -possibility that is end-to-end encrypted). Signal and WhatsApp have E2EE by default. 
+  An interesting niche is, that WhatsApp’s backups are not encrypted, which means that law enforcement could access your messages through iCloud or Google Drive. 
+  Advertising app as a ”Private, secure messenger” is misleading. In my opinion, encrypting messages is just a trick to hide data collection and sharing under the guise of a good and trusted feature. 
+  Metadata is not encrypted in any app (Signal does not gather metadata) and the more the data is collected, the easier it is to identify user and collect even more data.
+
+    The same phone number across different services helps big corporations and who ever they share information with build detailed social graphs. They are able to come up with behavioural patterns and find out who knows who. For sure they will use it in advertising, but who knows what else. 
+  I believe that at least it is used for their good, but I don’t know what their ultimate goal is. E.g. Why do they want to people be addicted on their phones. Is it because easily influenced people are not aware of their position. Well, that could be anything for real.
+
+    At a first sight, ”last seen” and ”online status” seem harmless, but actually they can reveal a lot about user. First of all, people can see when you are online and how long periods. With a tracking machine one could have a detailed activity info about the user. 
+  Also, someone can conclude who you are chatting with. When someone has information about you, they can predict your moves. Where you are at, with who, etc. I think that’s creepy, as well as is that I don’t know what they know about me and who they even are.
+
+
+
+Task 2 B) Image metadata
+
+GPS coordinates
+    GPSLatitudeRef: N
+    GPSLatitude: 65.05767059305555
+    GPSLongitudeRef: E
+    GPSLongitude: 25.46864318833333
+    GPSAltitudeRef: 1
+    GPSAltitude: 0
+  (65.05767059305555 °N, 25.46864318833333 °E)
+
+Device manufacturer and the model the image has been taken with
+    Make: HUAWEI
+    Model: CLT-L29
+
+Date and time when the image has been originally taken
+    DateTimeOriginal: 1661267759
+    CreateDate: 1661267759 
+  (2022-08-24 02:19:19 UTC + 3h)
+
+Image2 with extracted information should be found in the mainbranch as download.jpg
