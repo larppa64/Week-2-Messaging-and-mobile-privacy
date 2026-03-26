@@ -1,0 +1,22 @@
+Name your application and answer the following questions for each application.
+
+How many trackers and permissions each application has?
+  Instagram: 4 trackers, 73 permissions
+  TikTok: 7 trackers, 49 permissions
+  Flashlight
+
+How many "dangerous" (runtime) and/or "special" permissions does each have? (Red exclamation mark, see these in Google's guide 15)
+  Instagram: 14
+  TikTok: 10
+  Flashlight
+
+Did the applications have permission to access such data they could use or sell for monetary gain? Which permissions and trackers are these?
+  Instagram: Yes, 
+
+  TikTok: Yes, trackers: AppsFlyer, Facebook Analytics, Facebook Login, Facebook Share, Google Firebase Analytics, IAB Open Measurement and Pangle
+          Yes, permissions at least to coarse location, access to media location, camera, full network access, network state, wifi state, bluetooth, read contacts, record audio, read external storage
+  Flashlight
+
+Describe two attack vectors enabled by these permissions for each application, had an attacker gained access into the application and/or their database.
+
+Compare Android and iOS privacy labels (if it is available on both platforms) to your findings about trackers
