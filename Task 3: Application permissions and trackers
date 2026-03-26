@@ -1,22 +1,34 @@
-Name your application and answer the following questions for each application.
-
 How many trackers and permissions each application has?
   Instagram: 4 trackers, 73 permissions
   TikTok: 7 trackers, 49 permissions
-  Flashlight
+  #Calendar: 8 trackers, 38 permissions
 
 How many "dangerous" (runtime) and/or "special" permissions does each have? (Red exclamation mark, see these in Google's guide 15)
   Instagram: 14
   TikTok: 10
-  Flashlight
+  #Calendar: 11
 
 Did the applications have permission to access such data they could use or sell for monetary gain? Which permissions and trackers are these?
-  Instagram: Yes, 
-
-  TikTok: Yes, trackers: AppsFlyer, Facebook Analytics, Facebook Login, Facebook Share, Google Firebase Analytics, IAB Open Measurement and Pangle
-          Yes, permissions at least to coarse location, access to media location, camera, full network access, network state, wifi state, bluetooth, read contacts, record audio, read external storage
-  Flashlight
+  Instagram
+    trackers: Google Analytics
+    permissions: ads, location, accounts, contacts, phone numbers, phone state, call log, external storage, record audio, camera, internet, 
+  TikTok:
+    trackers: AppsFlyer, Facebook Analytics, Google Firebase Analytics, IAB Open Measurement and Pangle
+    permissions: ads, location, contacts, external storage, images, camera, audio, system alert window, internet, billing
+  #Calendar
+    trackers: Amazon Advertisement, AppLovin (MAX, SparkLabs), Facebook Ads, Google AdMob
+    permissions: location, contacts, phone state, calendar, ad servises, internet, camera, phone calls, system alert window
 
 Describe two attack vectors enabled by these permissions for each application, had an attacker gained access into the application and/or their database.
+  Instagram:
+  1. with contacts, phone numbers and call log attacker could impersonate the user and perform a phishing attack
+  2. with location and media location attacker could find you home and work locations and sell them to third parties
+  TikTok:
+  1. using permissions for ads, attacker could manipulate advertising attribution systems. They could generate fraud installs or clicks and receive a revenue
+  2. from images and external storage, attacker could find sensitive content and blackmail with it
+  #Calendar:
+  1. attacker collects location, contacts, calendar and ads data, builds a user profile and sells it for third parties
+  2. attacker makes a phishing attack and financial scam by sending a deceptive overlay with system alert window 
 
 Compare Android and iOS privacy labels (if it is available on both platforms) to your findings about trackers
+  There's no mention of network, phone calls, external storage, 
